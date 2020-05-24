@@ -2,6 +2,9 @@
   <div>
         <h1>methods属性</h1>
         {{ getFullname() }}
+        {{ getFullname() }}
+        {{ getFullname() }}
+        {{ getFullname() }}
   </div>
 </template>
 
@@ -19,6 +22,7 @@ export default {
 //   mounted() {},
   methods: {
       getFullname:function() {
+          console.log('1')   // 4个1     
           return this.lastname + this.firstname
       }
   }

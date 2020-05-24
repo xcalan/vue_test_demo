@@ -5,7 +5,8 @@
       <router-link to="/hello">Hello</router-link> |
       <router-link to="/elementUI">elementUI</router-link> |
       <router-link to="/echarts">Echarts示例</router-link> |
-      <router-link to="/nestrouter">嵌套路由</router-link>
+      <router-link to="/nestrouter">嵌套路由</router-link> |
+      <router-link to="/methods_computed_watch">methods、computed、watch属性</router-link>
     </div>
     <router-view/>
   </div>
