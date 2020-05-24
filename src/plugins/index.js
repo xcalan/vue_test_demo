@@ -8,4 +8,5 @@ import 'element-ui/lib/theme-chalk/index.css';
 Vue.use(ElementUI);
 
 // 导入echarts 配置文件 @ -> src
-import '@/components/echarts'
+import Echarts from '@/components/echarts'
+Vue.use(Echarts)
