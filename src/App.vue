@@ -3,7 +3,8 @@
     <div id="nav">
       <router-link to="/demo">Demo</router-link> |
       <router-link to="/hello">Hello</router-link> |
-      <router-link to="/elementUI">elementUI</router-link>
+      <router-link to="/elementUI">elementUI</router-link> |
+      <router-link to="/echarts">Echarts示例</router-link>
     </div>
     <router-view/>
   </div>

@@ -2,7 +2,8 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Hello from '../views/Hello.vue'
 import Demo from '../views/Demo.vue'
-import Element from '../views/Element.vue'
+import Element1 from '../views/Element.vue'
+import Echarts from '../views/Echarts.vue'
 
 Vue.use(VueRouter)
 
@@ -24,7 +25,12 @@ Vue.use(VueRouter)
     {
       path: '/elementUI',
       name: 'Element',
-      component: Element
+      component: Element1
+    },
+    {
+      path: '/echarts',
+      name: 'Echarts',
+      component: Echarts
     }
 
 ]

@@ -5,8 +5,6 @@
 </template>
 
 <script>
-import Element from '@/plugins/index.js'
-
 export default {
   name: 'elem'
 }
