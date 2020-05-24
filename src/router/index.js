@@ -4,6 +4,9 @@ import Hello from '../views/Hello.vue'
 import Demo from '../views/Demo.vue'
 import Element1 from '../views/Element.vue'
 import Echarts from '../views/Echarts.vue'
+import NestRouter from '../views/NestRouter.vue'
+  import Router1 from '../components/nestrouter/router1.vue'
+  import Router2 from '../components/nestrouter/router2.vue'
 
 Vue.use(VueRouter)
 
@@ -31,6 +34,21 @@ Vue.use(VueRouter)
       path: '/echarts',
       name: 'Echarts',
       component: Echarts
+    },
+    {
+      path: '/nestrouter',
+      name: 'NestRouter',
+      component: NestRouter,
+      children:[
+        {
+          path:'router1',
+          component:Router1
+        },
+        {
+          path:'router2',
+          component:Router2
+        }
+      ]
     }
 
 ]
