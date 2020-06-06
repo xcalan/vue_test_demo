@@ -6,11 +6,28 @@
       <router-link to="/elementUI">elementUI</router-link> |
       <router-link to="/echarts">Echarts示例</router-link> |
       <router-link to="/nestrouter">嵌套路由</router-link> |
-      <router-link to="/methods_computed_watch">methods、computed、watch属性</router-link>
+      <router-link to="/methods_computed_watch">methods、computed、watch属性</router-link> |
+      <router-link to="/vuex">Vuex使用</router-link>
     </div>
     <router-view/>
   </div>
 </template>
+
+<script>
+
+export default {
+  name:'',
+  data(){
+    return{
+
+    }
+  },
+  components:{
+
+  }
+}
+</script>
+
 
 <style>
 #app {

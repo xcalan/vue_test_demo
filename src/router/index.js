@@ -11,6 +11,7 @@ import Methods_computed_watch from '../views/Methods_computed_watch.vue'
   import Methods from '../components/methods_computed_watch/methods_prop.vue'
   import Computed from '../components/methods_computed_watch/computed_prop.vue'
   import Watch from '../components/methods_computed_watch/watch_prop.vue'
+import Vuex_demo from '../views/Vuex.vue'
 
 Vue.use(VueRouter)
 
@@ -71,6 +72,10 @@ Vue.use(VueRouter)
           component:Watch
         }
       ]
+    },
+    {
+      path:'/vuex',
+      component:Vuex_demo
     }
 
 ]

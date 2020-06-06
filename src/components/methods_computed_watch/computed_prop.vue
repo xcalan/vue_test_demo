@@ -22,9 +22,17 @@ export default {
 //   created() {},
 //   mounted() {},
   computed: {
-      getFullname:function() {
-          console.log('1')  // 1个1,因为有缓存
-          return this.lastname + this.firstname
+      // getFullname:function() {
+      //     console.log('1')  // 1个1,因为有缓存
+      //     return this.lastname + this.firstname
+      // }
+      getFullname:{
+        set:function(newValue){
+            console.log(newValue)
+        },
+        get:function(){
+            return this.lastname + this.firstname // 默认调用
+        }
       }
   }
 };
