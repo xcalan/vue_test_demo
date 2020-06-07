@@ -7,7 +7,8 @@
       <router-link to="/echarts">Echarts示例</router-link> |
       <router-link to="/nestrouter">嵌套路由</router-link> |
       <router-link to="/methods_computed_watch">methods、computed、watch属性</router-link> |
-      <router-link to="/vuex">Vuex使用</router-link>
+      <router-link to="/vuex">Vuex使用</router-link> |
+      <router-link to="/axios">Axios</router-link>
     </div>
     <router-view/>
   </div>
