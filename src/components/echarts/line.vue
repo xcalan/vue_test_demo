@@ -1,5 +1,5 @@
 <template>
-  <div ref="chart" :style="{width,height}"></div>
+    <div ref="chart" :style="{width,height}"></div>
 </template>
 
 <script>
@@ -23,7 +23,6 @@ export default {
       }
   },
   mounted() {
-    
     let series1 = this.options.keys.map(r=>{
         return {
             name:r.label,
